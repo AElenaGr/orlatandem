@@ -1,0 +1,120 @@
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #c8e6df; 
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+header {
+  text-align: center;
+  background-color: #1A3648; 
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #fff; 
+  border-radius: 10px; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.miembro {
+  margin: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #fff;
+  max-width: 200px;
+}
+
+.foto img {
+  max-width: 100%;
+  
+}
+
+.logo img {
+  max-width: 150px;
+  border-radius: 15%;
+}
+
+.nombre {
+  font-weight: bold;
+  margin: 10px 0;
+  background-color: #f8907b;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  color: #000;
+}
+
+
+a {
+  text-decoration: none;
+  color: #0078d4;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.profesores .miembro {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+  width: 200px;
+}
+
+.logo img {
+  max-width: 150px;
+  background-color: transparent; 
+}
+
+.puesto{
+  font-size: small;
+}
+.puesto:hover {
+  transform: scale(1.1); 
+  transition: transform 0.3s;
+
+}
+
+.alutrab {
+  text-align: center;
+  background-color: #1A3648; 
+  color: #fff;
+  padding: 5px;
+  border: 1px solid #fff; 
+  border-radius: 10px; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  }  
+
+.foto:hover{
+  transform: scale(1.1); 
+}
+/* Esto es un ejemplo de una @media query en CSS */
+@media screen and (max-width: 600px) {
+  /* Estilos que se aplicarán cuando el ancho de la pantalla sea igual o menor a 600px */
+  body {
+    background-color: lightblue;
+  }
+}
